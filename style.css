@@ -314,6 +314,7 @@ p {
     align-items: center;
     flex-direction: column;
     width: 50%;
+   
 
 }
 
@@ -322,11 +323,15 @@ p {
     margin: 10px 0 0 0;
     height: 30px;
     border-radius: 10px;
+    border: none;
 }
 
 .get-from input,
 .get-from textarea {
     padding: 10px 0px;
+}
+.get-from input{
+    padding: 10px;
 }
 
 .get-btn {
