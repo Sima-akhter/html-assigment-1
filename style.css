@@ -24,6 +24,7 @@
 }
 body{
     width: 100%;
+    
 }
 header{
  background-image: url('./B12A01-landing-launchpad/Assets/Hero-bg.png');
@@ -280,4 +281,41 @@ font-size: 97px;
     border-radius: 5px;
     padding: 10px;
     background-color: rgb(243, 243, 253);
+}
+/* ....................footer-section.............. */
+footer{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+.footer-section{
+      max-width: 1440px;
+     width: 100%;
+     margin: 0 auto;
+     padding: 10px 20px;
+}
+.footer-container{
+    width: 531px;
+    height: 221px;
+    margin: auto;
+    text-align: center;
+}
+.footer-log{
+    color:rgb(78, 71, 255) ;
+    font-weight: 900;
+    font-size: 100px;
+}
+.footer-pera{
+    color: rgb(137, 135, 161);
+    font-weight: 400;
+    font-size: 16px;
+    padding: 10px;
+}
+.footer-container ul{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-container ul, li, a{
+     list-style-type: none;
+    text-decoration: none;
+    color:rgb(137, 135, 161) ;
 }
