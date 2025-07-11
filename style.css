@@ -13,6 +13,9 @@
   font-style: normal;
 }
 
+    
+
+
 *{
     margin: 0;
     padding: 0;
@@ -41,7 +44,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #4E47FF; 
+    color:#4E47FF ; 
 }
 
 .btn{
@@ -91,6 +94,9 @@ header{
     height: 203px;
     margin-top: 50px;
 }
+.action-pera{
+    color: rgba(37, 36, 50, 0.5);
+}
 .see-text>*{
     margin-top: 10px;
     padding: 5px;
@@ -125,7 +131,7 @@ header{
   margin-top: 50px;
 }
 .joined-box>*{
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .group{
    display: flex;
@@ -133,7 +139,14 @@ header{
    
 }
 .group h1{
-color:#4E47FF;
+    font-weight: bold;
+    font-size: 80px;
+color:rgb(78, 71, 255);
+font: inter;
+}
+.group p{
+    font: inter;
+    color: rgba(0, 0, 0, 0.5);
 }
 /* ...............users-section............. */
 .users-section{
@@ -154,11 +167,16 @@ color:#4E47FF;
 .loved-card{
     display: flex;
     justify-content: space-evenly;
-    /* gap: 10px; */
-    /* background-color: aqua; */
+   
     margin-top: 20px;
     border-radius: 10px;
    
+}
+.loved-card h3, p{
+    font: inter;
+}
+.loved-card p{
+ color: rgba(0, 0, 0, 0.5);
 }
 .loved-card>*{
     margin-top: 20px;
@@ -168,7 +186,17 @@ color:#4E47FF;
 
 }
 .pera{
-    padding: 20px;
+    /* padding: 20px; */
+}
+.icon-img{
+    display: flex;
+    gap: 10px;
+    padding: 5px;
+    margin-top: 10px;
+}
+.icon-img img{
+    width: 100%;
+    border-radius: 50%;
 }
 /* ...................ready-section............... */
 .ready-section{
@@ -193,6 +221,12 @@ color:#4E47FF;
 .ready-heading>*{
    margin-top: 10px;
 }
+.ready-heading p{
+    color:rgba(0, 0, 0, 0.5) ;
+    font: inter;
+    font-weight: 400;
+    font-size: 16px;
+}
 .big-img{
     width: 840px;
     height: 365px;
@@ -211,10 +245,39 @@ color:#4E47FF;
      padding: 10px 20px;
 }
 .get-in-container{
-    display: flex;
-    justify-content: space-between;
     width: 1140px;
     height: 632px;
      margin: 0 auto;
      margin-top: 50px;
+}
+.getin-box{
+ width: 100%;
+ display: flex;
+ justify-content: space-between;
+}
+.get-text{
+    width: 50%;
+    /* text-align: center; */
+    align-content: center;
+}
+.get-text h1{
+width: 100%;
+font: var('raleway');
+font-size: 97px;
+
+
+}
+.get-from{
+    width: 50%;
+}
+.get-from>*{
+    padding: 7px 20px;
+    width: 100%;
+    height: 50px;
+}
+.get-from input{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(243, 243, 253);
 }
